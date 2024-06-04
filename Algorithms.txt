@@ -1,0 +1,71 @@
+Time Complexity and Space Complexity
+
+Time Complexity: is used to measure the amount of time required to execute the code.
+
+Space Complexity: of an algorithm is the total space taken by the algorithm with respect to the input size. 
+Space Complexity includes both auxiliary space and space used by inputs
+
+Auxiliary space: is the extra space or temporary space used by the algorithm
+
+How we represent complexity:
+1. Big-O ( O ): worst case complexity
+2. Omega (Ω): Best case complexity
+3. Theta (θ): Average case complexity
+
+for(i=0; i<n; i++){
+    //block of code
+}    
+-> as this code runs n times, therfore it has O(n) time complexity 
+
+for(i=0; i<n; i++){
+    for(j=0; j<n; j++){
+        //block of code
+    }   
+}
+-> This code executes twice the times, therfore it has n*n times complexity O(n^2) time complexity
+
+for(i=0; i<n; i=i*2){
+    //block of code
+}
+-> This code is not increamenting linearly, i is multiplying by 2 in each iteration. Therfore time complexity will be O(log n)
+
+
+Types of Sorting algorithm
+
+Merge Sort.
+
+1. Divide array into 2 parts 
+2. get both parts sorted
+3. merge the sorted parts recursively
+
+
+Quick Sort
+
+1. Choose a pivot element from the array.
+2. Partition the array into two sub-arrays:
+3. Elements less than the pivot.
+4. Elements greater than the pivot.
+5. Recursively apply the above steps to the sub-arrays.
+6. Combine the sorted sub-arrays and the pivot to get the final sorted array.
+
+Selection Sort
+
+1. Start with the first element as the minimum.
+2. Compare this element with the rest of the array to find the actual minimum element.
+3. Swap the found minimum element with the first element.
+4. Move to the next position and repeat the process for the remaining elements.
+
+Insertion Sort
+
+1. Start with the second element (consider the first element to be already sorted).
+2. Compare the current element with the previous elements.
+3. Shift all larger elements one position to the right to make space for the current element.
+4. Insert the current element into its correct position.
+5. Repeat the process for all elements.
+
+Bubble Sort
+1. Compare the first two elements of the array.
+2. If the first element is greater than the second, swap them.
+3. Move to the next pair of elements and repeat step 2.
+4. Continue until the end of the array is reached. This completes one pass.
+5. Repeat the process for the remaining unsorted elements.
