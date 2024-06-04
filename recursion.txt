@@ -1,0 +1,7 @@
+To understand recursion we have to first understand recursion
+
+The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called a recursive function.
+Using a recursive algorithm, certain problems can be solved quite easily.
+
+Need of Recursion:
+Recursion is an amazing technique with the help of which we can reduce the length of our code and make it easier to read and write.
