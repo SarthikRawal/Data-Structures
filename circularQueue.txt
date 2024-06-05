@@ -1,0 +1,9 @@
+Circular Queue
+
+The size of the queue is fixed & a single block of memory is used as if the first element is connected to the last element.
+
+Also refered to as circular buffer
+It will reuse the empty block created during the dequeueoperation.
+
+- enqueue, which adds an element to the rear/tail of the collection.
+- dequeue, which removes an element from the front/head of the collection.
