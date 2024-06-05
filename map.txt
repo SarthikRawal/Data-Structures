@@ -1,0 +1,15 @@
+Map
+
+A map is an ordered collection of key-value pairs. both key & values can be of any data type.
+
+To retrieve a value, you can use the corresponding key.
+Maps are iterables. They can be used with a for loop.
+
+Objects vs Maps
+
+Objects: Keys in objects can only be strings or symbols. Attempting to use a different data type as a key will convert it to a string. Onjects are not directly iterable.
+
+Maps: Keys in maps can be of any data type. This allows for more flexibility in how you structure your data. Maps are iterable using for..of loop
+
+
+Aprt from storing data, you can attach functionality to an object whereas amaps are restricted to just storing data.
