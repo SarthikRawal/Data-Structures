@@ -1,0 +1,18 @@
+Set
+
+A set is a data structure that can hold a collection of values. The values however must be unique.
+
+Set can contain mix of data types. 
+
+Sets are dynamically sized. You don't have to declare the size of a set before creating it.
+
+Sets do not maintain an insertion order.
+
+Sets are iterable using for..of loop
+
+
+Sets vs Arrays
+
+Arrays can contain duplicate values whereas Sets cannot.
+Insertion order is maintained in arrays but it is not the case with Sets.
+Searching and deleting an element is faster in Set, as compared to arrays.
