@@ -1,0 +1,17 @@
+Tree data structure:
+Is a hierarchical DS that consist of nodes connected by edges each node stores data.
+
+- it is a non-linear DS that helps in quciker & easier access to data.
+
+Nodes and Edges: Trees are composed of nodes connected by edges. Each node contains data and links to its child nodes.
+
+Root Node: The topmost node in a tree, which has no parent.
+Leaf Nodes: Nodes that do not have any children.
+
+Traversal Techniques
+
+- In-order Traversal: Visit the left subtree, the root node, and then the right subtree. Used to retrieve values in sorted order in BST. [ L - ROOT - R ]
+
+- Pre-order Traversal: Visit the root node, the left subtree, and then the right subtree. Useful for copying trees. [ ROOT - L - R ]
+
+- Post-order Traversal: Visit the left subtree, the right subtree, and then the root node. Used for deleting trees. [ L - R - ROOT ]
